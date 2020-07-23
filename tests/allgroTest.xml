@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Add and delite item from shop cart" >
+    <test name="Add and delite item from shop cart - opera">
+        <classes>
+            <class name="project_22_07_2020.shopTests.ShopifyTest">
+                <parameter name="browserName" value="Opera"></parameter>
+                <methods>
+                    <include name="allegroFirstTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Add and delite item from shop cart-chrome">
+        <classes>
+            <class name="project_22_07_2020.shopTests.ShopifyTest">
+                <parameter name="browserName" value="Chrome"></parameter>
+                <methods>
+                    <include name="allegroFirstTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+<!--    <test name="Add and delite item from shop cart-firefox">-->
+<!--        <classes>-->
+<!--            <class name="project_22_07_2020.shopTests.ShopifyTest">-->
+<!--                <parameter name="browserName" value="Firefox"></parameter>-->
+<!--                <parameter name="item" value="piłka"></parameter>-->
+<!--                <methods>-->
+<!--                    <include name="allegroFirstTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
+<!--       // parallel="tests" thread-count="3"-->

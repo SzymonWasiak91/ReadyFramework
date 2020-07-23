@@ -1,0 +1,129 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 347.995 s <<< FAILURE! - in TestSuite
+allegroFirstTest(project_22_07_2020.shopTests.ShopifyTest)  Time elapsed: 40.003 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //i[@title='usuń przedmiot']' (tried for 20 second(s) with 500 milliseconds interval)
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title='usuń przedmiot']"}
+  (Session info: chrome=83.0.4103.116)
+  (Driver info: operadriver=83.0.4103.97 (326d148b9655369b86498d9ecca39f63dd2bdd2d-refs/branch-heads/4103@{#657}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MJLJMNA', ip: '192.168.0.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55064}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 83.0.4103.97 (326d148b96553..., userDataDir: C:\Users\wasia\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 83.0.4103.116, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: ef9af7bd17a09840d94129eb855ffdc0
+*** Element info: {Using=xpath, value=//i[@title='usuń przedmiot']}
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+
+allegroFirstTest(project_22_07_2020.shopTests.ShopifyTest)  Time elapsed: 34.924 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //i[@title='usuń przedmiot']' (tried for 20 second(s) with 500 milliseconds interval)
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title='usuń przedmiot']"}
+  (Session info: chrome=83.0.4103.116)
+  (Driver info: operadriver=83.0.4103.97 (326d148b9655369b86498d9ecca39f63dd2bdd2d-refs/branch-heads/4103@{#657}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MJLJMNA', ip: '192.168.0.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55166}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 83.0.4103.97 (326d148b96553..., userDataDir: C:\Users\wasia\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 83.0.4103.116, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b89240cd2fd1898459d629dd227d8c5
+*** Element info: {Using=xpath, value=//i[@title='usuń przedmiot']}
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+
+allegroFirstTest(project_22_07_2020.shopTests.ShopifyTest)  Time elapsed: 36.032 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //i[@title='usuń przedmiot']' (tried for 20 second(s) with 500 milliseconds interval)
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title='usuń przedmiot']"}
+  (Session info: chrome=83.0.4103.116)
+  (Driver info: operadriver=83.0.4103.97 (326d148b9655369b86498d9ecca39f63dd2bdd2d-refs/branch-heads/4103@{#657}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MJLJMNA', ip: '192.168.0.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55243}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 83.0.4103.97 (326d148b96553..., userDataDir: C:\Users\wasia\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 83.0.4103.116, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 60a163f3afbec1caa0d874cd2af6199e
+*** Element info: {Using=xpath, value=//i[@title='usuń przedmiot']}
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+
+allegroFirstTest(project_22_07_2020.shopTests.ShopifyTest)  Time elapsed: 37.032 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //i[@title='usuń przedmiot']' (tried for 20 second(s) with 500 milliseconds interval)
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title='usuń przedmiot']"}
+  (Session info: chrome=83.0.4103.116)
+  (Driver info: operadriver=83.0.4103.97 (326d148b9655369b86498d9ecca39f63dd2bdd2d-refs/branch-heads/4103@{#657}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MJLJMNA', ip: '192.168.0.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.opera.OperaDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55320}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 83.0.4103.97 (326d148b96553..., userDataDir: C:\Users\wasia\AppData\Loca...}, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 83.0.4103.116, webStorageEnabled: true, webauthn:virtualAuthenticators: true}
+Session ID: 727832308f994b377ad907ff9466c5e8
+*** Element info: {Using=xpath, value=//i[@title='usuń przedmiot']}
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+
+allegroFirstTest(project_22_07_2020.shopTests.ShopifyTest)  Time elapsed: 39.273 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //i[@title='usuń przedmiot']' (tried for 20 second(s) with 500 milliseconds interval)
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title='usuń przedmiot']"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MJLJMNA', ip: '192.168.0.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\wasia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 72af5e898129f01ec54e61d6d32fdda9
+*** Element info: {Using=xpath, value=//i[@title='usuń przedmiot']}
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+
+allegroFirstTest(project_22_07_2020.shopTests.ShopifyTest)  Time elapsed: 36.806 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //i[@title='usuń przedmiot']' (tried for 20 second(s) with 500 milliseconds interval)
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title='usuń przedmiot']"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MJLJMNA', ip: '192.168.0.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\wasia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: aa299c4674b2f41705073915d787abb6
+*** Element info: {Using=xpath, value=//i[@title='usuń przedmiot']}
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+
+allegroFirstTest(project_22_07_2020.shopTests.ShopifyTest)  Time elapsed: 36.701 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //i[@title='usuń przedmiot']' (tried for 20 second(s) with 500 milliseconds interval)
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//i[@title='usuń przedmiot']"}
+  (Session info: chrome=81.0.4044.113)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MJLJMNA', ip: '192.168.0.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\wasia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1fc241f9e51149b4569ddb6e5d2d3d97
+*** Element info: {Using=xpath, value=//i[@title='usuń przedmiot']}
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+
+allegroFirstTest(project_22_07_2020.shopTests.ShopifyTest)  Time elapsed: 41.258 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=81.0.4044.113)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-MJLJMNA', ip: '192.168.0.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.113, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\wasia\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55671}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9e98462a31a03eeb15dbb35cb392086c
+*** Element info: {Using=xpath, value=//i[@title='usuń przedmiot']}
+	at project_22_07_2020.shopTests.ShopifyTest.allegroFirstTest(ShopifyTest.java:34)
+

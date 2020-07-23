@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Add and delite item from shop cart]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Add and delite item from shop cart - opera(failed)" verbose="0">
+    <classes>
+      <class name="project_22_07_2020.shopTests.ShopifyTest">
+        <parameter name="browserName" value="Opera"/>
+        <methods>
+          <include name="setUp"/>
+          <include name="allegroFirstTest" invocation-numbers="0 1 2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- project_22_07_2020.shopTests.ShopifyTest -->
+    </classes>
+  </test> <!-- Add and delite item from shop cart - opera(failed) -->
+  <test thread-count="5" name="Add and delite item from shop cart-chrome(failed)" verbose="0">
+    <classes>
+      <class name="project_22_07_2020.shopTests.ShopifyTest">
+        <parameter name="browserName" value="Chrome"/>
+        <methods>
+          <include name="setUp"/>
+          <include name="allegroFirstTest" invocation-numbers="0 1 2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- project_22_07_2020.shopTests.ShopifyTest -->
+    </classes>
+  </test> <!-- Add and delite item from shop cart-chrome(failed) -->
+</suite> <!-- Failed suite [Add and delite item from shop cart] -->
